@@ -7,5 +7,5 @@ thumbnail = models.ImageField(upload_to="images/thumnbnail/", verbose_name="ã‚µã
 USERNAME_FIELD = 'email'
 REQUUIRED_FIELDS =['username']
 
-def _str_(self):
+def __str__(self):
     return self.email
